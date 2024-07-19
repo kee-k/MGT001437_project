@@ -1,0 +1,91 @@
+,name,Score,Impact Category,unit
+0,India,0.1275661753535221,"acidification: terrestrial, terrestrial acidification potential (TAP)",kg SO2-Eq
+1,India,36.49131223423419,"climate change, global warming potential (GWP1000)",kg CO2-Eq
+2,India,0.1590246596301731,"ecotoxicity: freshwater, freshwater ecotoxicity potential (FETP)","kg 1,4-DCB-Eq"
+3,India,970.7377109863304,"ecotoxicity: marine, marine ecotoxicity potential (METP)","kg 1,4-DCB-Eq"
+4,India,139.13110241675298,"ecotoxicity: terrestrial, terrestrial ecotoxicity potential (TETP)","kg 1,4-DCB-Eq"
+5,India,9.875448674269125,"energy resources: non-renewable, fossil, fossil fuel potential (FFP)",kg oil-Eq
+6,India,0.0072223522411587,"eutrophication: freshwater, freshwater eutrophication potential (FEP)",kg P-Eq
+7,India,0.0051073985115648,"eutrophication: marine, marine eutrophication potential (MEP)",kg N-Eq
+8,India,26.53551631934834,"human toxicity: carcinogenic, human toxicity potential (HTPc)","kg 1,4-DCB-Eq"
+9,India,1321.9063237222258,"human toxicity: non-carcinogenic, human toxicity potential (HTPnc)","kg 1,4-DCB-Eq"
+10,India,2.276424114023969,"ionising radiation, ionising radiation potential (IRP)",kg Co-60-Eq
+11,India,0.5993364054475515,"land use, agricultural land occupation (LOP)",m2*a crop-Eq
+12,India,0.8157136533627833,"material resources: metals/minerals, surplus ore potential (SOP)",kg Cu-Eq
+13,India,2.535667226327231e-05,"ozone depletion, ozone depletion potential (ODPinfinite)",kg CFC-11-Eq
+14,India,0.0725430010188598,"particulate matter formation, particulate matter formation potential (PMFP)",kg PM2.5-Eq
+15,India,0.0866157474867193,"photochemical oxidant formation: human health, photochemical oxidant formation potential: humans (HOFP)",kg NOx-Eq
+16,India,0.09002339573154,"photochemical oxidant formation: terrestrial ecosystems, photochemical oxidant formation potential: ecosystems (EOFP)",kg NOx-Eq
+17,India,0.3927080668884192,"water use, water consumption potential (WCP)",cubic meter
+18,Brazil,0.1260518373627403,"acidification: terrestrial, terrestrial acidification potential (TAP)",kg SO2-Eq
+19,Brazil,36.05347370683838,"climate change, global warming potential (GWP1000)",kg CO2-Eq
+20,Brazil,0.158802857842611,"ecotoxicity: freshwater, freshwater ecotoxicity potential (FETP)","kg 1,4-DCB-Eq"
+21,Brazil,969.6182843338568,"ecotoxicity: marine, marine ecotoxicity potential (METP)","kg 1,4-DCB-Eq"
+22,Brazil,138.84196550219033,"ecotoxicity: terrestrial, terrestrial ecotoxicity potential (TETP)","kg 1,4-DCB-Eq"
+23,Brazil,9.745353115396863,"energy resources: non-renewable, fossil, fossil fuel potential (FFP)",kg oil-Eq
+24,Brazil,0.0071660493312892,"eutrophication: freshwater, freshwater eutrophication potential (FEP)",kg P-Eq
+25,Brazil,0.0051100573230024,"eutrophication: marine, marine eutrophication potential (MEP)",kg N-Eq
+26,Brazil,26.32731465000684,"human toxicity: carcinogenic, human toxicity potential (HTPc)","kg 1,4-DCB-Eq"
+27,Brazil,1314.3404776431405,"human toxicity: non-carcinogenic, human toxicity potential (HTPnc)","kg 1,4-DCB-Eq"
+28,Brazil,2.265039363416368,"ionising radiation, ionising radiation potential (IRP)",kg Co-60-Eq
+29,Brazil,0.5973846401518584,"land use, agricultural land occupation (LOP)",m2*a crop-Eq
+30,Brazil,0.8161622382451443,"material resources: metals/minerals, surplus ore potential (SOP)",kg Cu-Eq
+31,Brazil,2.5404145798925507e-05,"ozone depletion, ozone depletion potential (ODPinfinite)",kg CFC-11-Eq
+32,Brazil,0.0712654072055384,"particulate matter formation, particulate matter formation potential (PMFP)",kg PM2.5-Eq
+33,Brazil,0.0855200930132555,"photochemical oxidant formation: human health, photochemical oxidant formation potential: humans (HOFP)",kg NOx-Eq
+34,Brazil,0.0889214504331487,"photochemical oxidant formation: terrestrial ecosystems, photochemical oxidant formation potential: ecosystems (EOFP)",kg NOx-Eq
+35,Brazil,0.3993430243779098,"water use, water consumption potential (WCP)",cubic meter
+36,Europe,0.1263316623616686,"acidification: terrestrial, terrestrial acidification potential (TAP)",kg SO2-Eq
+37,Europe,36.09872095227965,"climate change, global warming potential (GWP1000)",kg CO2-Eq
+38,Europe,0.1588227470808521,"ecotoxicity: freshwater, freshwater ecotoxicity potential (FETP)","kg 1,4-DCB-Eq"
+39,Europe,969.4865162373344,"ecotoxicity: marine, marine ecotoxicity potential (METP)","kg 1,4-DCB-Eq"
+40,Europe,138.8577156541244,"ecotoxicity: terrestrial, terrestrial ecotoxicity potential (TETP)","kg 1,4-DCB-Eq"
+41,Europe,9.773575755609404,"energy resources: non-renewable, fossil, fossil fuel potential (FFP)",kg oil-Eq
+42,Europe,0.0071796321636647,"eutrophication: freshwater, freshwater eutrophication potential (FEP)",kg P-Eq
+43,Europe,0.0051068007751768,"eutrophication: marine, marine eutrophication potential (MEP)",kg N-Eq
+44,Europe,26.369070883629263,"human toxicity: carcinogenic, human toxicity potential (HTPc)","kg 1,4-DCB-Eq"
+45,Europe,1315.1183021903655,"human toxicity: non-carcinogenic, human toxicity potential (HTPnc)","kg 1,4-DCB-Eq"
+46,Europe,2.3038120966641342,"ionising radiation, ionising radiation potential (IRP)",kg Co-60-Eq
+47,Europe,0.5961275430851237,"land use, agricultural land occupation (LOP)",m2*a crop-Eq
+48,Europe,0.815660785843949,"material resources: metals/minerals, surplus ore potential (SOP)",kg Cu-Eq
+49,Europe,2.525490016808015e-05,"ozone depletion, ozone depletion potential (ODPinfinite)",kg CFC-11-Eq
+50,Europe,0.071351718375744,"particulate matter formation, particulate matter formation potential (PMFP)",kg PM2.5-Eq
+51,Europe,0.0856479178142022,"photochemical oxidant formation: human health, photochemical oxidant formation potential: humans (HOFP)",kg NOx-Eq
+52,Europe,0.089052650995408,"photochemical oxidant formation: terrestrial ecosystems, photochemical oxidant formation potential: ecosystems (EOFP)",kg NOx-Eq
+53,Europe,0.3922903089547453,"water use, water consumption potential (WCP)",cubic meter
+54,USA,0.1261977565465989,"acidification: terrestrial, terrestrial acidification potential (TAP)",kg SO2-Eq
+55,USA,36.13757853737185,"climate change, global warming potential (GWP1000)",kg CO2-Eq
+56,USA,0.1588194267906179,"ecotoxicity: freshwater, freshwater ecotoxicity potential (FETP)","kg 1,4-DCB-Eq"
+57,USA,969.3792859302034,"ecotoxicity: marine, marine ecotoxicity potential (METP)","kg 1,4-DCB-Eq"
+58,USA,138.81242408338306,"ecotoxicity: terrestrial, terrestrial ecotoxicity potential (TETP)","kg 1,4-DCB-Eq"
+59,USA,9.79127817675949,"energy resources: non-renewable, fossil, fossil fuel potential (FFP)",kg oil-Eq
+60,USA,0.007178622738224,"eutrophication: freshwater, freshwater eutrophication potential (FEP)",kg P-Eq
+61,USA,0.0051065340219788,"eutrophication: marine, marine eutrophication potential (MEP)",kg N-Eq
+62,USA,26.363647150322528,"human toxicity: carcinogenic, human toxicity potential (HTPc)","kg 1,4-DCB-Eq"
+63,USA,1314.672945970924,"human toxicity: non-carcinogenic, human toxicity potential (HTPnc)","kg 1,4-DCB-Eq"
+64,USA,2.3046146803928917,"ionising radiation, ionising radiation potential (IRP)",kg Co-60-Eq
+65,USA,0.595825017615816,"land use, agricultural land occupation (LOP)",m2*a crop-Eq
+66,USA,0.8156566072180131,"material resources: metals/minerals, surplus ore potential (SOP)",kg Cu-Eq
+67,USA,2.52543638394865e-05,"ozone depletion, ozone depletion potential (ODPinfinite)",kg CFC-11-Eq
+68,USA,0.0715546570149965,"particulate matter formation, particulate matter formation potential (PMFP)",kg PM2.5-Eq
+69,USA,0.0856266263745417,"photochemical oxidant formation: human health, photochemical oxidant formation potential: humans (HOFP)",kg NOx-Eq
+70,USA,0.0890390226774857,"photochemical oxidant formation: terrestrial ecosystems, photochemical oxidant formation potential: ecosystems (EOFP)",kg NOx-Eq
+71,USA,0.3913667797906869,"water use, water consumption potential (WCP)",cubic meter
+72,China,0.1272422879108202,"acidification: terrestrial, terrestrial acidification potential (TAP)",kg SO2-Eq
+73,China,36.29645258935556,"climate change, global warming potential (GWP1000)",kg CO2-Eq
+74,China,0.1588868848195354,"ecotoxicity: freshwater, freshwater ecotoxicity potential (FETP)","kg 1,4-DCB-Eq"
+75,China,969.8197238915473,"ecotoxicity: marine, marine ecotoxicity potential (METP)","kg 1,4-DCB-Eq"
+76,China,138.9665019987828,"ecotoxicity: terrestrial, terrestrial ecotoxicity potential (TETP)","kg 1,4-DCB-Eq"
+77,China,9.817249910852496,"energy resources: non-renewable, fossil, fossil fuel potential (FFP)",kg oil-Eq
+78,China,0.0071734790976337,"eutrophication: freshwater, freshwater eutrophication potential (FEP)",kg P-Eq
+79,China,0.0051065289754891,"eutrophication: marine, marine eutrophication potential (MEP)",kg N-Eq
+80,China,26.4462618418749,"human toxicity: carcinogenic, human toxicity potential (HTPc)","kg 1,4-DCB-Eq"
+81,China,1317.4147068925913,"human toxicity: non-carcinogenic, human toxicity potential (HTPnc)","kg 1,4-DCB-Eq"
+82,China,2.269660072329477,"ionising radiation, ionising radiation potential (IRP)",kg Co-60-Eq
+83,China,0.5964833953357808,"land use, agricultural land occupation (LOP)",m2*a crop-Eq
+84,China,0.8156754550813876,"material resources: metals/minerals, surplus ore potential (SOP)",kg Cu-Eq
+85,China,2.528573136097116e-05,"ozone depletion, ozone depletion potential (ODPinfinite)",kg CFC-11-Eq
+86,China,0.0717837324670366,"particulate matter formation, particulate matter formation potential (PMFP)",kg PM2.5-Eq
+87,China,0.0865405342545714,"photochemical oxidant formation: human health, photochemical oxidant formation potential: humans (HOFP)",kg NOx-Eq
+88,China,0.0899409985101219,"photochemical oxidant formation: terrestrial ecosystems, photochemical oxidant formation potential: ecosystems (EOFP)",kg NOx-Eq
+89,China,0.3914209854204134,"water use, water consumption potential (WCP)",cubic meter

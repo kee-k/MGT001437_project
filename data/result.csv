@@ -1,0 +1,91 @@
+name,Score,Impact Category,unit
+India,0.12756617535352216,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'acidification: terrestrial no LT', 'terrestrial acidification potential (TAP) no LT')",kg SO2-Eq
+India,36.49131223423419,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'climate change no LT', 'global warming potential (GWP1000) no LT')",kg CO2-Eq
+India,0.1590246596301731,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'ecotoxicity: freshwater no LT', 'freshwater ecotoxicity potential (FETP) no LT')","kg 1,4-DCB-Eq"
+India,970.7377109863304,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'ecotoxicity: marine no LT', 'marine ecotoxicity potential (METP) no LT')","kg 1,4-DCB-Eq"
+India,139.13110241675298,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'ecotoxicity: terrestrial no LT', 'terrestrial ecotoxicity potential (TETP) no LT')","kg 1,4-DCB-Eq"
+India,9.875448674269125,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'energy resources: non-renewable, fossil no LT', 'fossil fuel potential (FFP) no LT')",kg oil-Eq
+India,0.007222352241158745,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'eutrophication: freshwater no LT', 'freshwater eutrophication potential (FEP) no LT')",kg P-Eq
+India,0.00510739851156482,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'eutrophication: marine no LT', 'marine eutrophication potential (MEP) no LT')",kg N-Eq
+India,26.53551631934834,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'human toxicity: carcinogenic no LT', 'human toxicity potential (HTPc) no LT')","kg 1,4-DCB-Eq"
+India,1321.9063237222258,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'human toxicity: non-carcinogenic no LT', 'human toxicity potential (HTPnc) no LT')","kg 1,4-DCB-Eq"
+India,2.276424114023969,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'ionising radiation no LT', 'ionising radiation potential (IRP) no LT')",kg Co-60-Eq
+India,0.5993364054475515,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'land use no LT', 'agricultural land occupation (LOP) no LT')",m2*a crop-Eq
+India,0.8157136533627833,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'material resources: metals/minerals no LT', 'surplus ore potential (SOP) no LT')",kg Cu-Eq
+India,2.535667226327231e-05,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'ozone depletion no LT', 'ozone depletion potential (ODPinfinite) no LT')",kg CFC-11-Eq
+India,0.0725430010188598,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'particulate matter formation no LT', 'particulate matter formation potential (PMFP) no LT')",kg PM2.5-Eq
+India,0.08661574748671938,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'photochemical oxidant formation: human health no LT', 'photochemical oxidant formation potential: humans (HOFP) no LT')",kg NOx-Eq
+India,0.09002339573154008,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'photochemical oxidant formation: terrestrial ecosystems no LT', 'photochemical oxidant formation potential: ecosystems (EOFP) no LT')",kg NOx-Eq
+India,0.39270806688841925,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'water use no LT', 'water consumption potential (WCP) no LT')",cubic meter
+Brazil,0.12605183736274037,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'acidification: terrestrial no LT', 'terrestrial acidification potential (TAP) no LT')",kg SO2-Eq
+Brazil,36.05347370683838,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'climate change no LT', 'global warming potential (GWP1000) no LT')",kg CO2-Eq
+Brazil,0.158802857842611,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'ecotoxicity: freshwater no LT', 'freshwater ecotoxicity potential (FETP) no LT')","kg 1,4-DCB-Eq"
+Brazil,969.6182843338569,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'ecotoxicity: marine no LT', 'marine ecotoxicity potential (METP) no LT')","kg 1,4-DCB-Eq"
+Brazil,138.84196550219033,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'ecotoxicity: terrestrial no LT', 'terrestrial ecotoxicity potential (TETP) no LT')","kg 1,4-DCB-Eq"
+Brazil,9.745353115396865,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'energy resources: non-renewable, fossil no LT', 'fossil fuel potential (FFP) no LT')",kg oil-Eq
+Brazil,0.007166049331289278,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'eutrophication: freshwater no LT', 'freshwater eutrophication potential (FEP) no LT')",kg P-Eq
+Brazil,0.00511005732300246,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'eutrophication: marine no LT', 'marine eutrophication potential (MEP) no LT')",kg N-Eq
+Brazil,26.327314650006837,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'human toxicity: carcinogenic no LT', 'human toxicity potential (HTPc) no LT')","kg 1,4-DCB-Eq"
+Brazil,1314.3404776431405,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'human toxicity: non-carcinogenic no LT', 'human toxicity potential (HTPnc) no LT')","kg 1,4-DCB-Eq"
+Brazil,2.265039363416368,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'ionising radiation no LT', 'ionising radiation potential (IRP) no LT')",kg Co-60-Eq
+Brazil,0.5973846401518584,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'land use no LT', 'agricultural land occupation (LOP) no LT')",m2*a crop-Eq
+Brazil,0.8161622382451443,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'material resources: metals/minerals no LT', 'surplus ore potential (SOP) no LT')",kg Cu-Eq
+Brazil,2.5404145798925507e-05,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'ozone depletion no LT', 'ozone depletion potential (ODPinfinite) no LT')",kg CFC-11-Eq
+Brazil,0.07126540720553845,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'particulate matter formation no LT', 'particulate matter formation potential (PMFP) no LT')",kg PM2.5-Eq
+Brazil,0.08552009301325558,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'photochemical oxidant formation: human health no LT', 'photochemical oxidant formation potential: humans (HOFP) no LT')",kg NOx-Eq
+Brazil,0.08892145043314872,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'photochemical oxidant formation: terrestrial ecosystems no LT', 'photochemical oxidant formation potential: ecosystems (EOFP) no LT')",kg NOx-Eq
+Brazil,0.39934302437790986,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'water use no LT', 'water consumption potential (WCP) no LT')",cubic meter
+Europe,0.12633166236166862,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'acidification: terrestrial no LT', 'terrestrial acidification potential (TAP) no LT')",kg SO2-Eq
+Europe,36.09872095227965,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'climate change no LT', 'global warming potential (GWP1000) no LT')",kg CO2-Eq
+Europe,0.15882274708085214,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'ecotoxicity: freshwater no LT', 'freshwater ecotoxicity potential (FETP) no LT')","kg 1,4-DCB-Eq"
+Europe,969.4865162373345,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'ecotoxicity: marine no LT', 'marine ecotoxicity potential (METP) no LT')","kg 1,4-DCB-Eq"
+Europe,138.8577156541244,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'ecotoxicity: terrestrial no LT', 'terrestrial ecotoxicity potential (TETP) no LT')","kg 1,4-DCB-Eq"
+Europe,9.773575755609404,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'energy resources: non-renewable, fossil no LT', 'fossil fuel potential (FFP) no LT')",kg oil-Eq
+Europe,0.007179632163664738,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'eutrophication: freshwater no LT', 'freshwater eutrophication potential (FEP) no LT')",kg P-Eq
+Europe,0.005106800775176882,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'eutrophication: marine no LT', 'marine eutrophication potential (MEP) no LT')",kg N-Eq
+Europe,26.369070883629266,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'human toxicity: carcinogenic no LT', 'human toxicity potential (HTPc) no LT')","kg 1,4-DCB-Eq"
+Europe,1315.1183021903655,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'human toxicity: non-carcinogenic no LT', 'human toxicity potential (HTPnc) no LT')","kg 1,4-DCB-Eq"
+Europe,2.3038120966641342,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'ionising radiation no LT', 'ionising radiation potential (IRP) no LT')",kg Co-60-Eq
+Europe,0.5961275430851237,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'land use no LT', 'agricultural land occupation (LOP) no LT')",m2*a crop-Eq
+Europe,0.815660785843949,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'material resources: metals/minerals no LT', 'surplus ore potential (SOP) no LT')",kg Cu-Eq
+Europe,2.525490016808015e-05,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'ozone depletion no LT', 'ozone depletion potential (ODPinfinite) no LT')",kg CFC-11-Eq
+Europe,0.071351718375744,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'particulate matter formation no LT', 'particulate matter formation potential (PMFP) no LT')",kg PM2.5-Eq
+Europe,0.08564791781420222,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'photochemical oxidant formation: human health no LT', 'photochemical oxidant formation potential: humans (HOFP) no LT')",kg NOx-Eq
+Europe,0.08905265099540807,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'photochemical oxidant formation: terrestrial ecosystems no LT', 'photochemical oxidant formation potential: ecosystems (EOFP) no LT')",kg NOx-Eq
+Europe,0.39229030895474537,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'water use no LT', 'water consumption potential (WCP) no LT')",cubic meter
+USA,0.12619775654659893,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'acidification: terrestrial no LT', 'terrestrial acidification potential (TAP) no LT')",kg SO2-Eq
+USA,36.13757853737185,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'climate change no LT', 'global warming potential (GWP1000) no LT')",kg CO2-Eq
+USA,0.15881942679061792,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'ecotoxicity: freshwater no LT', 'freshwater ecotoxicity potential (FETP) no LT')","kg 1,4-DCB-Eq"
+USA,969.3792859302034,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'ecotoxicity: marine no LT', 'marine ecotoxicity potential (METP) no LT')","kg 1,4-DCB-Eq"
+USA,138.81242408338306,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'ecotoxicity: terrestrial no LT', 'terrestrial ecotoxicity potential (TETP) no LT')","kg 1,4-DCB-Eq"
+USA,9.79127817675949,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'energy resources: non-renewable, fossil no LT', 'fossil fuel potential (FFP) no LT')",kg oil-Eq
+USA,0.007178622738224077,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'eutrophication: freshwater no LT', 'freshwater eutrophication potential (FEP) no LT')",kg P-Eq
+USA,0.005106534021978816,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'eutrophication: marine no LT', 'marine eutrophication potential (MEP) no LT')",kg N-Eq
+USA,26.363647150322528,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'human toxicity: carcinogenic no LT', 'human toxicity potential (HTPc) no LT')","kg 1,4-DCB-Eq"
+USA,1314.672945970924,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'human toxicity: non-carcinogenic no LT', 'human toxicity potential (HTPnc) no LT')","kg 1,4-DCB-Eq"
+USA,2.3046146803928913,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'ionising radiation no LT', 'ionising radiation potential (IRP) no LT')",kg Co-60-Eq
+USA,0.595825017615816,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'land use no LT', 'agricultural land occupation (LOP) no LT')",m2*a crop-Eq
+USA,0.8156566072180131,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'material resources: metals/minerals no LT', 'surplus ore potential (SOP) no LT')",kg Cu-Eq
+USA,2.52543638394865e-05,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'ozone depletion no LT', 'ozone depletion potential (ODPinfinite) no LT')",kg CFC-11-Eq
+USA,0.07155465701499658,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'particulate matter formation no LT', 'particulate matter formation potential (PMFP) no LT')",kg PM2.5-Eq
+USA,0.08562662637454176,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'photochemical oxidant formation: human health no LT', 'photochemical oxidant formation potential: humans (HOFP) no LT')",kg NOx-Eq
+USA,0.08903902267748573,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'photochemical oxidant formation: terrestrial ecosystems no LT', 'photochemical oxidant formation potential: ecosystems (EOFP) no LT')",kg NOx-Eq
+USA,0.39136677979068696,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'water use no LT', 'water consumption potential (WCP) no LT')",cubic meter
+China,0.12724228791082023,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'acidification: terrestrial no LT', 'terrestrial acidification potential (TAP) no LT')",kg SO2-Eq
+China,36.29645258935556,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'climate change no LT', 'global warming potential (GWP1000) no LT')",kg CO2-Eq
+China,0.15888688481953542,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'ecotoxicity: freshwater no LT', 'freshwater ecotoxicity potential (FETP) no LT')","kg 1,4-DCB-Eq"
+China,969.8197238915473,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'ecotoxicity: marine no LT', 'marine ecotoxicity potential (METP) no LT')","kg 1,4-DCB-Eq"
+China,138.9665019987828,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'ecotoxicity: terrestrial no LT', 'terrestrial ecotoxicity potential (TETP) no LT')","kg 1,4-DCB-Eq"
+China,9.817249910852496,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'energy resources: non-renewable, fossil no LT', 'fossil fuel potential (FFP) no LT')",kg oil-Eq
+China,0.007173479097633757,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'eutrophication: freshwater no LT', 'freshwater eutrophication potential (FEP) no LT')",kg P-Eq
+China,0.005106528975489178,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'eutrophication: marine no LT', 'marine eutrophication potential (MEP) no LT')",kg N-Eq
+China,26.4462618418749,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'human toxicity: carcinogenic no LT', 'human toxicity potential (HTPc) no LT')","kg 1,4-DCB-Eq"
+China,1317.4147068925913,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'human toxicity: non-carcinogenic no LT', 'human toxicity potential (HTPnc) no LT')","kg 1,4-DCB-Eq"
+China,2.2696600723294775,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'ionising radiation no LT', 'ionising radiation potential (IRP) no LT')",kg Co-60-Eq
+China,0.5964833953357808,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'land use no LT', 'agricultural land occupation (LOP) no LT')",m2*a crop-Eq
+China,0.8156754550813876,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'material resources: metals/minerals no LT', 'surplus ore potential (SOP) no LT')",kg Cu-Eq
+China,2.528573136097116e-05,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'ozone depletion no LT', 'ozone depletion potential (ODPinfinite) no LT')",kg CFC-11-Eq
+China,0.07178373246703666,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'particulate matter formation no LT', 'particulate matter formation potential (PMFP) no LT')",kg PM2.5-Eq
+China,0.08654053425457145,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'photochemical oxidant formation: human health no LT', 'photochemical oxidant formation potential: humans (HOFP) no LT')",kg NOx-Eq
+China,0.0899409985101219,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'photochemical oxidant formation: terrestrial ecosystems no LT', 'photochemical oxidant formation potential: ecosystems (EOFP) no LT')",kg NOx-Eq
+China,0.3914209854204134,"('ReCiPe 2016 v1.03, midpoint (E) no LT', 'water use no LT', 'water consumption potential (WCP) no LT')",cubic meter
