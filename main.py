@@ -93,6 +93,24 @@ units = {
     'water use, water consumption potential (WCP)': 'm3'
 }
 
+# dataframes for viz 2
+selected_ic = pd.read_csv("data/country_table_data.csv")
+usa = selected_ic[selected_ic["name"] == 'USA']
+india = selected_ic[selected_ic["name"] == 'India']
+europe = selected_ic[selected_ic["name"] == 'Europe']
+china = selected_ic[selected_ic["name"] == 'China']
+brazil = selected_ic[selected_ic["name"] == 'Brazil']
+
+# country dataframe dictionary
+country_dfs = {
+    'USA': usa,
+    'India': india,
+    'Europe': europe,
+    'China': china,
+    'Brazil': brazil
+}
+
+
 # Initialize the Dash app
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 
@@ -102,21 +120,34 @@ app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 
 app.layout = [
     dbc.Card([
-        dcc.Markdown('# LCA Dashboard', style={
-            'text-align': 'center'
+        dcc.Markdown('LCA Dashboard - smartphone production from different countries', style={
+            'text-align': 'center',
+            'font-size': '35px',
+            'padding': '20px'
         }),
-        html.P('A tool to assist with conscious consumerism of smartphones. Uses Brightway data from 2016.', style={
-            'text-align':'center'
+        dcc.Markdown('---  \n'
+            '📱 A [Life Cycle Assessment (LCA)] (https://sphera.com/resources/glossary/what-is-a-life-cycle-assessment-lca/) is defined as the systematic analysis of the potential environmental impacts of products or services during their entire life cycle.  \n'               
+            '📱 The goal and scope of this LCA are to compare the environmental impacts associated with the production of smartphones.  \n'
+            '📱 The functional unit chosen for this study is one unit of a smartphone, and the system boundary includes raw material acquisition and manufacturing processes.  \n' 
+            '📱 The background data source for this assessment is the ecoinvent 3.9.1 database.  \n'
+            '---  \n'
+            '**How to use:**  \n'
+            'Select an impact category from the dropdown list. A brief definition of the impact category will appear below. Under the definition, a graph will be displayed depicting the scores per impact category of the top five smartphone producing countries (or region in the case of Europe) in the world.'
+            , style={
+            'text-align':'left',
+            'padding': '10px'
         })
         ], className= 'm-5'),
 
     dbc.Card([
-        html.P('Select impact category:'),
+        dcc.Markdown('Select impact category:', style={
+            'padding': '0px'
+        }),
         dcc.Dropdown(
-            id='my-dropdown',
+            id='my-dropdown1',
             options=[{'label': key, 'value': key} for key in dataframes.keys()],
             value='climate change, global warming potential (GWP1000)',  # Default value
-            style={'width': '90%', 'height': '40px', 'font-size': '15px'},
+            style={'width': '100%', 'height': '40px', 'font-size': '15px', 'padding':'0px'},
             clearable = False
         ),
         dcc.Markdown(id='dropdown-text', style={
@@ -128,22 +159,38 @@ app.layout = [
             'font-size': '18px',
             'text-align': 'center'
         }),
-        dcc.Graph(id='my-graph'),
-        dash_table.DataTable(id='data-table')
+        dcc.Graph(id='my-graph1'),
+        dash_table.DataTable(id='data-table',
+            style_cell={'whiteSpace': 'normal', 'height': 'auto'},
+            style_table={'overflowX': 'auto'},
+            style_header={'fontWeight': 'bold'})
     ], className= 'm-5'),
 
     dbc.Card([
-        html.P('footer'),
+        html.P('Select country:'),
+        dcc.Dropdown(
+            id='my-dropdown2',
+            options=[{'label': key, 'value': key} for key in country_dfs.keys()],
+            value='USA',  # Default value
+            style={'width': '100%', 'height': '40px', 'font-size': '15px'},
+            clearable = False
+        ),
+       dcc.Graph(id='my-graph2')
+    ], className='m-5'),
+
+    dbc.Card([
+        dcc.Markdown('All rights reserved: © Copyright 2024, Mingyu Song, Kaayin Kee.  \n'
+        'Built with (model you used 1), (model you used 2) and brightway.'),
     ], className= 'm-5')
 ]
 
 # Define the callback to update the graph based on the dropdown selection
 @app.callback(
-    [Output('my-graph', 'figure'),
+    [Output('my-graph1', 'figure'),
     Output('dropdown-text', 'children'),
     Output('data-table', 'data'),
     Output('data-table', 'columns')],
-    [Input('my-dropdown', 'value')]
+    [Input('my-dropdown1', 'value')]
 )
 def update_graph(selected_df_key):
     df = dataframes[selected_df_key]
@@ -173,6 +220,22 @@ def update_graph(selected_df_key):
     table_columns = [{"name": col, "id": col} for col in df.columns]
 
     return fig, text, table_data, table_columns
+
+# Define the callback to update the second graph based on the second dropdown selection
+@app.callback(
+    Output('my-graph2', 'figure'),
+    [Input('my-dropdown2', 'value')]
+)
+
+def update_graph_2(selected_df_key_2):
+    df = country_dfs[selected_df_key_2]
+
+    fig = px.bar(df, y='Impact Category', x='normalized value (score/one person value)', color='Impact Category', 
+                 color_discrete_sequence=["#70D3FF", "#68BCFF", "#5CA4FF", "#4F8AFF", "#4070FF"],
+                 title=f'Selected impacts of smartphone production in {selected_df_key_2}',
+                 orientation='h')
+    
+    return fig
 
 # Run the app
 if __name__ == '__main__':

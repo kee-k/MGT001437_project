@@ -1,0 +1,26 @@
+name,Score,Impact Category,unit,amount of one person/year,normalized value (score/one person value)
+USA,2.53E-05,ozone depletion,kg CFC-11-Eq,0.0234,0.001079246
+USA,0.005106534,eutrophication: marine,kg N-Eq,0.2829,0.018050668
+USA,0.007178623,eutrophication: freshwater,kg P-Eq,0.73399,0.009780273
+USA,36.13757854,climate change,kg CO2-Eq,8400,0.004302093
+USA,0.39136678,water use ,cubic meter,11500,3.40E-05
+India,2.54E-05,ozone depletion,kg CFC-11-Eq,0.0234,0.001083618
+India,0.005107399,eutrophication: marine,kg N-Eq,0.2829,0.018053724
+India,0.007222352,eutrophication: freshwater,kg P-Eq,0.73399,0.009839851
+India,36.49131223,climate change,kg CO2-Eq,8400,0.004344204
+India,0.392708067,water use ,cubic meter,11500,3.41E-05
+Europe,2.53E-05,ozone depletion,kg CFC-11-Eq,0.0234,0.001079269
+Europe,0.005106801,eutrophication: marine,kg N-Eq,0.2829,0.018051611
+Europe,0.007179632,eutrophication: freshwater,kg P-Eq,0.73399,0.009781648
+Europe,36.09872095,climate change,kg CO2-Eq,8400,0.004297467
+Europe,0.392290309,water use ,cubic meter,11500,3.41E-05
+China,2.53E-05,ozone depletion,kg CFC-11-Eq,0.0234,0.001080587
+China,0.005106529,eutrophication: marine,kg N-Eq,0.2829,0.01805065
+China,0.007173479,eutrophication: freshwater,kg P-Eq,0.73399,0.009773265
+China,36.29645259,climate change,kg CO2-Eq,8400,0.004321006
+China,0.391420985,water use ,cubic meter,11500,3.40E-05
+Brazil,2.54E-05,ozone depletion,kg CFC-11-Eq,0.0234,0.001085647
+Brazil,0.005110057,eutrophication: marine,kg N-Eq,0.2829,0.018063122
+Brazil,0.007166049,eutrophication: freshwater,kg P-Eq,0.73399,0.009763143
+Brazil,36.05347371,climate change,kg CO2-Eq,8400,0.00429208
+Brazil,0.399343024,water use ,cubic meter,11500,3.47E-05
