@@ -4,7 +4,6 @@ import plotly.express as px
 import pandas as pd
 import dash_bootstrap_components as dbc
 import dash_core_components as dcc
-from dash import html
 from dash import dash_table
 
 # dataframes
@@ -114,10 +113,6 @@ country_dfs = {
 # Initialize the Dash app
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 
-# Define the layout of the app
-
-
-
 app.layout = [
     dbc.Card([
         dcc.Markdown('LCA Dashboard - smartphone production from different countries', style={
@@ -132,7 +127,7 @@ app.layout = [
             '📱 The background data source for this assessment is the ecoinvent 3.9.1 database.  \n'
             '---  \n'
             '**How to use:**  \n'
-            'Select an impact category from the dropdown list. A brief definition of the impact category will appear below. Under the definition, a graph will be displayed depicting the scores per impact category of the top five smartphone producing countries (or region in the case of Europe) in the world.'
+            'Select an impact category from the dropdown list. A brief definition of the impact category will appear below. Under the definition, a graph will be displayed depicting the scores per impact category of the top five smartphone markets in the world.'
             , style={
             'text-align':'left',
             'padding': '10px'
@@ -160,14 +155,16 @@ app.layout = [
             'text-align': 'center'
         }),
         dcc.Graph(id='my-graph1'),
+        dcc.Graph(id='world-map'),
         dash_table.DataTable(id='data-table',
             style_cell={'whiteSpace': 'normal', 'height': 'auto'},
             style_table={'overflowX': 'auto'},
-            style_header={'fontWeight': 'bold'})
+            style_header={'fontWeight': 'bold'
+        })
     ], className= 'm-5'),
 
     dbc.Card([
-        html.P('Select country:'),
+        dcc.Markdown('Select country:'),
         dcc.Dropdown(
             id='my-dropdown2',
             options=[{'label': key, 'value': key} for key in country_dfs.keys()],
@@ -180,7 +177,11 @@ app.layout = [
 
     dbc.Card([
         dcc.Markdown('All rights reserved: © Copyright 2024, Mingyu Song, Kaayin Kee.  \n'
-        'Built with (model you used 1), (model you used 2) and brightway.'),
+        'This Life Cycle Assessment (LCA) utilizes data from the ecoinvent 3.9.1 database.and followed ISO 14040 and ISO 14044 standards, ensuring a comprehensive and standardized approach to assessing environmental impacts.',
+        style={
+            'font-size':'15px',
+            'margin-bottom': '0px'
+        }),
     ], className= 'm-5')
 ]
 
@@ -189,25 +190,27 @@ app.layout = [
     [Output('my-graph1', 'figure'),
     Output('dropdown-text', 'children'),
     Output('data-table', 'data'),
-    Output('data-table', 'columns')],
+    Output('data-table', 'columns'),
+    Output('world-map', 'figure')],
     [Input('my-dropdown1', 'value')]
 )
+
 def update_graph(selected_df_key):
+# Setting data to be displayed as selected impact category from dropdown
     df = dataframes[selected_df_key]
     
-    max_score = df['Score'].max()
-        
 # Adjust the y-axis to encompass all the tops of the bars
-    y_axis_range = [max_score * 0.975, max_score * 1.001]  # Extend range slightly above the max value
+    max_score = df['Score'].max()
+    y_axis_range = [max_score * 0.975, max_score * 1.001]  # Extends range slightly above the max value
         
-# Plot with dynamically adjusted y-axis range
-    fig = px.bar(df, x='name', y='Score', color='name', 
+# Plot bar chart with dynamically adjusted y-axis range
+    fig1 = px.bar(df, x='name', y='Score', color='name', 
                  color_discrete_sequence=["#E95824", "#009638", "#F7C600", "#002561", "#D72711"],
                  title=f'Scores by {selected_df_key}')
     
     unit = units[selected_df_key]
 
-    fig.update_layout(
+    fig1.update_layout(
         yaxis=dict(
             title=unit,
             range=y_axis_range)
@@ -219,7 +222,19 @@ def update_graph(selected_df_key):
     table_data = df.to_dict('records')
     table_columns = [{"name": col, "id": col} for col in df.columns]
 
-    return fig, text, table_data, table_columns
+# Plot world map
+    fig2 = px.choropleth(
+        df,
+        locations='name',
+        locationmode='country names',
+        color='Score',
+        hover_name='name',
+        color_continuous_scale=px.colors.sequential.Plasma,
+        title='World Map Visualization'
+    )
+
+    return fig1, text, table_data, table_columns, fig2
+
 
 # Define the callback to update the second graph based on the second dropdown selection
 @app.callback(
@@ -228,11 +243,13 @@ def update_graph(selected_df_key):
 )
 
 def update_graph_2(selected_df_key_2):
+# Setting data to be displayed as selected market from dropdown
     df = country_dfs[selected_df_key_2]
 
+# Plot bar chart
     fig = px.bar(df, y='Impact Category', x='normalized value (score/one person value)', color='Impact Category', 
                  color_discrete_sequence=["#70D3FF", "#68BCFF", "#5CA4FF", "#4F8AFF", "#4070FF"],
-                 title=f'Selected impacts of smartphone production in {selected_df_key_2}',
+                 title=f'Selected person per year impacts of smartphone production in {selected_df_key_2}',
                  orientation='h')
     
     return fig
